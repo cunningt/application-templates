@@ -22,6 +22,13 @@
       "description": "The name assigned to the application."
     },
     {
+      "name" : "JAVA_OPTIONS",
+      "displayName": "Java Options",
+      "required": true,
+      "value": "-javaagent:hawkular-javaagent-0.28.1.Final-SNAPSHOT.jar=config=simple.yaml,delay=45",
+      "description": "Java command line options"
+    },
+    {
       "name": "GIT_REPO",
       "displayName": "Git Repository URL",
       "required": true,
